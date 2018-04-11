@@ -1,0 +1,104 @@
+.container-fluid {
+  width: 100%;
+}
+
+nav {
+  margin: 50px auto;
+  max-width: 700px;
+  width: 95%;
+  padding-top: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  max-width: 700px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  align-self: center;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 15px;
+  transition: background .2s linear;
+  color: black;
+}
+
+body {
+  background-image: url("../img/door.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Yatra One', cursive;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav {
+  height: 50px;
+  text-align: center;
+}
+
+.btn {
+  background-color: black;
+}
+
+.info {
+  color: white;
+  height: 80%;
+  padding-top: 400px;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 200px;
+  font-weight: bolder;
+}
+
+.homes {
+  height: 600px;
+  padding-top: 50px;
+  padding-bottom: 500px;
+}
+
+img {
+  margin-left: 20px;
+}
+
+.footer {
+  height: auto;
+  text-align: center;
+  padding-top: 350px;
+}
+
+.icon {
+  padding: 40px;
+
+
+}
+
+p {
+  color: black;
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.name {
+  padding-top: 30px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-bottom: 50px;
+}
